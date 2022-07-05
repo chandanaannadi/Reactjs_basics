@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { createContext } from 'react'
 
 import ComponentC from './ComponentC';
 
 
-export const UserContext = React.createContext();
+export const UserContext = createContext();
 export const Demo4 = () => {
    
     return(
